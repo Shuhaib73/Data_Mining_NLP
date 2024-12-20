@@ -5,8 +5,8 @@ import os
 
 def main():
     # Input file path for scraping articles and log file location
-    input_file_path = "data/Input.xlsx"
-    log_file = "logs/scrapping.log"
+    input_file_path = "-------"
+    log_file = "-------"
 
     # Create the 'logs' directory if it doesn't exist
     log_dir = os.path.dirname(log_file) 
@@ -20,10 +20,10 @@ def main():
     scrapper.scrape_all_articles()
 
     # Paths for stop words file, stop words folder, and folder to save scraped text files
-    stop_words_out = 'data/combined_stop_words.txt'
-    stp_file_path = 'data/StopWords'
+    stop_words_out = '---/combined_stop_words.txt'
+    stp_file_path = '----/StopWords'
     txt_file_path = 'scraped_txt_files'
-    zip_path_masterDir = 'data/MasterDictionary-20241126T092209Z-001.zip' 
+    zip_path_masterDir = '----/MasterDictionary-001.zip' 
 
     # Initialize the TextPreprocessing class for text data processing
     preprocessor = TextPreprocessing()    
