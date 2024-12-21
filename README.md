@@ -45,6 +45,7 @@ The project automates the extraction, cleaning, and analysis of data using Pytho
 
 ## 📂 **Project Structure**
 
+```
 Project/
 ├── main.py                    # entry point for running the web app.
 ├── requirements.txt           # File listing all dependencies to set up the environment.
@@ -58,7 +59,7 @@ Project/
 │   └── article_scraper_nlp.py # Script for scraping articles and performing NLP tasks.
 ├── visuals/                   # Visual assets for documentation.
     └── (e.g., images, flowcharts)
-
+```
 
 ## 📊 Results
 
